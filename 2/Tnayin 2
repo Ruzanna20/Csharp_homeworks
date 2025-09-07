@@ -1,0 +1,13 @@
+using System;
+
+class Program5
+{
+    static void Main(string[] args)
+    {
+        int r = int.Parse(args[0]);
+        double pi = 3.14;
+
+        double S = pi * (r * r);
+        Console.WriteLine($"S = {S}");
+    }
+}
