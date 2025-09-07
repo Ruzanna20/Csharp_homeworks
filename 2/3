@@ -1,0 +1,16 @@
+using System;
+
+class Program2
+{
+    static void Main()
+    {
+        Console.Write("Do you have ID card?(Yes/No). ");
+        string answer1 = Console.ReadLine();
+
+        Console.Write("Do you have ticket?(Yes/No). ");
+        string answer2 = Console.ReadLine();
+
+        if (answer1 == "Yes" && answer2 == "Yes") Console.Write("Մուտքը թույլատրվում է։");
+        else Console.Write("Մուտքը արգելված է։");
+    }
+}
