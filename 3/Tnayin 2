@@ -1,0 +1,16 @@
+using System;
+
+class Program6
+{
+    static void Main(string[] args)
+    {
+        int N = int.Parse(Console.ReadLine());
+
+        int result = 0;
+        for (int i = 1; i <= N; i++)
+        {
+            result = result + i;
+        }
+        Console.WriteLine($"1- {N} թվերի գումարը։ {result}");
+    }
+}
