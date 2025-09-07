@@ -1,0 +1,12 @@
+using System;
+
+class Program6
+{
+    static void Main(string[] args)
+    {
+        int a = int.Parse(args[0]);
+
+        if (a % 2 == 0) Console.WriteLine($"{a} զույգ թիվ է։");
+        else Console.WriteLine($"{a} կենտ թիվ է։");
+    }
+}
