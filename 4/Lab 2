@@ -1,0 +1,11 @@
+using System;
+
+int CountLetters(string text)
+{
+    return text.Length;
+}
+
+
+string text = "Hello C#";
+int count = CountLetters(text);
+Console.WriteLine(count); 
