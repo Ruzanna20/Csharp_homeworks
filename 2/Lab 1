@@ -1,0 +1,21 @@
+using System;
+
+class Program1
+{
+    static void Main()
+    {
+        Console.Write("Number 1: ");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.Write("Number 2: ");
+        int b = int.Parse(Console.ReadLine());
+
+        int sum = a + b;
+        int dif = a - b;
+        int mul = a * b;
+        int div = 0;
+        if (b != 0) div = a / b;
+
+        Console.Write($"Sum:{sum}\nDif:{dif}\nMul:{mul}\nDiv:{div}");
+    }
+}
