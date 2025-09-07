@@ -1,0 +1,23 @@
+using System;
+
+class Program1
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter the number: ");
+        int a = int.Parse(Console.ReadLine());
+
+        if (a > 0)
+        {
+            Console.WriteLine($"{a} դրական է։ ");
+        }
+        else if (a == 0)
+        {
+            Console.WriteLine($"{a} է։ ");
+        }
+        else
+        {
+            Console.WriteLine($"{a} բացասական է։");
+        }
+    }
+}
