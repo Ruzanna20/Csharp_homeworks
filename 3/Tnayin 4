@@ -1,0 +1,29 @@
+using System;
+
+class Program8
+{
+    static void Main()
+    {
+        Random rand = new Random();
+        int num = rand.Next(1, 101);
+
+        Console.WriteLine("Գուշակիր թիվը:(1-100): ");
+        int number = int.Parse(Console.ReadLine());
+
+        while (number != num)
+        {
+            if (number > num)
+            {
+                Console.WriteLine("Մեծ է։Ավելի փոքր գրիր։");
+            }
+            else if (number < num)
+            {
+                Console.WriteLine("Փոքր է։Ավելի մեծ գրիր։");
+            }
+
+
+            number = int.Parse(Console.ReadLine());
+        }
+        Console.Write("Ճիշտ է։");
+    }
+}
