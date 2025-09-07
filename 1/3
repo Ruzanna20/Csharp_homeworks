@@ -1,0 +1,16 @@
+using System;
+
+class Program3
+{
+    static void Main()
+    {
+        Console.WriteLine("Գրիր առաջին թիվը։");
+        int number1 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Գրիր երկրորդ թիվը։");
+        int number2 = int.Parse(Console.ReadLine());
+
+        int sum = number1 + number2;
+        Console.Write($"2 թվերի գումար։ {sum}");
+    } 
+}
