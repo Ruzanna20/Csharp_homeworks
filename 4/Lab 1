@@ -1,0 +1,17 @@
+using System;
+
+
+int Add(int a, int b)
+{
+    return a + b;
+}
+
+int result1 = Add(5, 7);
+Console.WriteLine(result1);
+
+int result2 = Add(8, 2);
+Console.WriteLine(result2);
+
+
+
+
