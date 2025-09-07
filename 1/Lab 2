@@ -1,0 +1,15 @@
+using System;
+
+class Program1
+{
+    static void Main()
+    {
+        Console.WriteLine("Ի՞նչ է քո անունը։");
+        string name = Console.ReadLine();
+
+        Console.WriteLine("Քանի՞ տարեկան ես։");
+        int age = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Բարև {name},դու {age} տարեկան ես։");
+    }
+}
