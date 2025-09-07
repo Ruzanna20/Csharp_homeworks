@@ -1,0 +1,17 @@
+using System;
+
+class Program4
+{
+    static void Main(string[] args)
+    {
+        int a = int.Parse(args[0]);
+        int b = int.Parse(args[1]);
+
+
+        int area = a * b;
+        int perimeter = (2 * a) + (2 * b);
+
+        Console.WriteLine($"Area:{area}");
+        Console.WriteLine($"Perimeter:{perimeter}");
+    }
+}
